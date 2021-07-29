@@ -13,4 +13,4 @@ def index(request):
 
 
 def about(request):
-    return HttpResponse("Rango says hey there partner!")
+    return HttpResponse("Rango says here is the about page.")
