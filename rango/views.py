@@ -13,6 +13,5 @@ def index(request):
 
 
 def about(request):
-    # HttpResponse("Rango says here is the about page.")
 
     return render(request, 'rango/about.html')
